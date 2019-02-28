@@ -1,0 +1,51 @@
+div#Wrapper {
+    width: 1000px;
+    margin: auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav {
+    background: black;
+    padding: 1px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-right: 2px solid white;
+    padding-right: 8px;
+}
+
+div.content {
+    margin-top: 20px;
+}
+
+table {
+    border: 1px solid black; 
+    border-collapse: collapse;
+    width: 48%;
+}
+
+td {
+    padding: 15px;
+    border: 1px solid black;
+}
+
+td.Groen {
+    background: #91C199;
+}
+
+td.Blauw {
+    background: #2F4EB3;
+}
+
+p {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
