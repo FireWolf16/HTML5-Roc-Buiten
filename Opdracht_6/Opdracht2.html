@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>registeren</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <h1>Voorbeeldformulier</h1>
+    </div>
+    <form action="https://www.savatarian.com/html5/form.php" method="POST">
+        <div class="mid-1">
+            <ul class="mid.1">
+                <li>
+                    <label for="voornaam">Voornaam</label>
+                    <input type="text" name="voornaam">
+                </li>
+                <br>
+                <li></li>
+                    <label for="ussenvoegsel">Tussenvoegsel</label>
+                    <input type="text" name="tussenvoegsel">
+                </li>
+                <br>
+                <li>
+                    <label for="achternaam" name="achternaam">achternaam</label>
+                    <input type="text" name="achternaam">
+                </li>
+                <br>
+                <li>
+                    <label for="geslacht">geslacht</label>
+                    <input type="radio" name="geslacht" value="man">
+                    &nbsp;Man
+                    <input type="radio" name="geslacht" value="vrouw">
+                    &nbsp;vrouw
+             </li>
+                <br>
+                <li>
+                    <label for="kleur-ogen">Kleur ogen</label>
+                    <select name="kleur-ogen">
+                        <option>groen</option>
+                        <option>blauw</option>
+                        <option>bruin</option>
+                    </select>
+             </li>
+                <br>
+                <li>
+                    <label for="geboortedatum">geboortedatum</label>
+                    <input type="date" name="geboortedatum">
+                </li>
+                <br>
+                <li>
+                    <label for="omschrijving">Omschrijving</label>
+                    <textarea rows="6" cols="25" name="omschrijving"></textarea>
+             </li>
+        </ul>
+        </div>
+        <div class="mid-2">
+            <input type="checkbox" name="eten">
+            <span class="checkbox">sperciebonen</span>
+            <br>
+            <input type="checkbox" name="eten">
+            <span class="chheckbox">Aardappelen</span>
+            <br>
+            <input type="checkbox" name="eten">
+            <span class="checkbox">Hamburer</span>
+        </div>
+        <div class="bottom">
+            <input type="button" name="Annuleren" value="Annuleer">
+            <input type="submit" name="Ok" value="Ok">
+        </div>
+    </form>
+</body>
+</html>
